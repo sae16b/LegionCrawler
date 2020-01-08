@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
 	{
 		if (period > .5f)
 		{
-			playerHealth.TakeDamage(5);
+			// playerHealth.TakeDamage(5);
 			period = 0;
 		}
 		period += Time.deltaTime;
